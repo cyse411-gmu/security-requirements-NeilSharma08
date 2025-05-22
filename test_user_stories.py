@@ -1,9 +1,3 @@
-
----
-
-### ✅ `test_user_stories.py` (Regex Auto-Grader)
-
-```python
 import re
 
 def check_file(filename, pattern, must_include):

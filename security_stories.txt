@@ -13,3 +13,12 @@ So that flooding or denial-of-service attacks are mitigated.
 Acceptance Criteria:
 - System enforces rate limits per client identity/IP.
 - Excess requests are dropped and logged for audit.
+
+As a security engineer,
+I want to ensure the integrity of the running processes on each drone,
+So that attackers cannot execute malicious code on a drone and send hardcoded messages.
+
+Acceptance Criteria:
+- MQTT implementation on drones is well-regarded as secure, implying that it is free from buffer overflow vulnerabilities.
+- Proper permissions management to ensure lack of privilege escalation if MQTT implementation is compromised.
+- Custom antivirus ensuring no MQTT messages are hardcoded but rather passed from the listener to the sender.
