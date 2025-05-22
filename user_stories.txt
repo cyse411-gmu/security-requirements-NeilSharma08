@@ -5,3 +5,7 @@ So that rescue teams can locate and assist me effectively.
 As a rescue operator,
 I want to view incoming distress signals on a map dashboard,
 So that I can prioritize and coordinate rescue missions efficiently.
+
+As a government official,
+I want to recieve aggregated data during the course of the flood,
+So that I can appropriately allocate funds to different areas.

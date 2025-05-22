@@ -13,3 +13,11 @@ So that legitimate distress calls are delayed or lost.
 Acceptance Criteria:
 - Network accepts repeated invalid messages.
 - Drones are unable to distinguish valid from fake requests.
+
+As a malicious actor,
+I want to execute arbitrary code on a drone,
+So that I can spoof repeated fake distress messages from fake sources, leading to more allocated funding due to greater perceived destruction.
+
+Acceptance Criteria:
+- A remote code execution vulnerability exists in a drone's MQTT implementation.
+- The crisis management center cannot tell when a drone is compromised.
